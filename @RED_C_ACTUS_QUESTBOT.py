@@ -34,7 +34,6 @@ print(f"{y}[+]{g}Bot version: 1.0")
 
 restore_key = input(f"{y}[+]{g}Enter restore key:{w} ")
 
-# Create connection pool and configure session
 pool_size = 10
 pool_connections = 10
 pool_max_retries = 5
